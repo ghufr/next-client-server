@@ -1,10 +1,10 @@
-### How To Start?
-Make sure your machine already installed node
+# YET ANOTHER TODOS APP (CLIENT)
+Example todos app using [next.js]('https://github.com/zeit/next.js') framework
+## How To Start?
+`yarn` or `npm install`
 
-yarn or npm install
+### Start Dev Server
 
-Start development environment 
-
-yarn dev or npm run dev
+`yarn dev` or `npm run dev`
 
 
