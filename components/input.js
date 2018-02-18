@@ -7,6 +7,7 @@ const Input = (props) => (
         padding: 8px 16px;
         font-size: 1em;
         box-shadow: none;
+        border-radius: .5em;
       }
     `}</style>
   </div>

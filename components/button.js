@@ -1,4 +1,9 @@
-const Button = ({ children, ...rest }) => (
+const Theme = {
+  pink: 'palevioletred',
+  grey: 'darkslategrey'
+}
+
+const Button = ({ children, variant, ...rest }) => (
   <button {...rest}>
     {children}
     <style jsx>{`
@@ -7,7 +12,8 @@ const Button = ({ children, ...rest }) => (
         font-size: 1em;
         border-radius: .5em;
         border: none;
-        backround-color: palevioletred;
+        color: #fff;
+        background-color: ${Theme[variant] || 'red'};
       }
     `}
     </style>

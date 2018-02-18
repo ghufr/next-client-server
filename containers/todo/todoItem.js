@@ -1,7 +1,8 @@
+import Button from '../../components/button'
+
 const TodoItem = ({ id, title, handleClick }) => (
   <div>
-    <p>{title}</p>
-    <button onClick={() => handleClick(id)}>Del Todo</button>
+    <p style={{display: 'inline-block'}}>{title}</p>
   </div>
 )
 

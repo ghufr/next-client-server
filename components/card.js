@@ -7,7 +7,7 @@ const Card = ({ children }) => (
     {/* Styling */}
     <style jsx>{`
       .wrapper {
-        border: 1px solid grey;
+        box-shadow: 0 0 6px rgba(0,0,0,.1);
         border-radius: .5em;
       }
       .body {
